@@ -4,7 +4,7 @@ This repository is for machine learning projects (deep learning).
 
 # Author : Christian Alberto Montes Patiño.
 
-I am an undergraduate student of Systems Engineering with 8 semesters of study already completed. 
+I am an undergraduate student of Systems Engineering with eight semesters of study already completed. 
 
 # Contact
 
