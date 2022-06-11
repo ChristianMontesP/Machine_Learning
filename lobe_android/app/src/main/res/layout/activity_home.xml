@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".HomeActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="35dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="389dp"
+            android:layout_height="235dp"
+            android:translationY="-90dp"
+            app:srcCompat="@drawable/hhh"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="-20dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="299dp"
+            android:layout_height="110dp"
+            android:fontFamily="monospace"
+            android:text="Coin Identifier"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#FFFFFF"
+            android:translationY="-80dp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="236dp" />
+
+        <Button
+            android:id="@+id/showInput"
+            android:layout_width="235dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/cardview_light_background"
+            android:text="Empezar"
+            android:textColor="@android:color/black"
+            android:textSize="@android:dimen/app_icon_size"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="482dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="218dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:scaleX="0.9"
+            android:scaleY="1.1"
+            android:text="Create by: Christian Montes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:translationX="-60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="576dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="218dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="16dp"
+            android:scaleX="0.9"
+            android:scaleY="1.1"
+            android:text="Program: Systems Engineering"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:translationX="-60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="598dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="218dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="16dp"
+            android:scaleX="0.9"
+            android:scaleY="1.1"
+            android:text="Subject: Deep Learning"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:translationX="-60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="620dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="218dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="16dp"
+            android:scaleX="0.9"
+            android:scaleY="1.1"
+            android:text="Year: 2022"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:translationX="-60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="642dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
